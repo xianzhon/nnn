@@ -146,7 +146,7 @@ static struct key bindings[] = {
 	{ CONTROL('L'),   SEL_REDRAW,    "",     "" },
 	{ KEY_F(5),       SEL_REDRAW,    "",     "" }, /* Undocumented */
 	/* Copy currently selected file path */
-	{ CONTROL('K'),   SEL_COPY,      "",     "" },
+	{ 'y',            SEL_COPY,      "",     "" },
 	/* Toggle copy multiple file paths */
 	{ CONTROL('Y'),   SEL_COPYMUL,   "",     "" },
 	/* Toggle quote on while copy */
